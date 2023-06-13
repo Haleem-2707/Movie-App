@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family:  sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(80, 75, 70);
+    display: flex;
+}
+
+h1 {
+    color: whitesmoke;
+    margin-left: 28rem;
+    align-self: center;
+}
+
+.search {
+    margin: 3rem;
+    margin-left: 12rem;
+    background-color: transparent;
+    border: 2px solid rgb(252, 243, 243);
+    border-radius: 50px;
+    color: white;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.search::placeholder {
+    color: rgb(126, 115, 122);
+}
+
+.search:focus{
+    background-color: rgb(5, 5, 5);
+    outline: none;
+}
